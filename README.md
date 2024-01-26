@@ -1,3 +1,3 @@
 JAREJ: Image Search
 
-This is simple image search app.
+This is a simple image search app.
