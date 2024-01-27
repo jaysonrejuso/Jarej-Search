@@ -30,6 +30,7 @@ async function searchImages(){
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
+        imageLink.rel = "noopener noreferrer";
         imageLink.textContent = result.alt_description;
 
         imageWrapper.appendChild(image);
